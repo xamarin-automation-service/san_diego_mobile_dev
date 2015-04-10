@@ -1,0 +1,29 @@
+﻿<Properties StartupItem="Mobile-Dev/Mobile-Dev.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Mobile-Dev/Test.cs">
+    <Files>
+      <File FileName="Mobile-Dev/Test.cs" Line="24" Column="31" />
+      <File FileName="Mobile-Dev/Constants.cs" Line="3" Column="28" />
+      <File FileName="Mobile-Dev/Extension.cs" Line="20" Column="15" />
+    </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.NUnit.TestPad">
+        <State expanded="True">
+          <Node name="Mobile-Dev" expanded="True">
+            <Node name="MobileDev" expanded="True">
+              <Node name="Android" expanded="True">
+                <Node name="SimpleTest" expanded="True">
+                  <Node name="TestCase" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

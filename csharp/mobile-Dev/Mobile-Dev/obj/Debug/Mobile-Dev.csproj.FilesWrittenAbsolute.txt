@@ -1,0 +1,14 @@
+/Users/charleswang/Code/mobile-dev/Mobile-Dev/Mobile-Dev/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/charleswang/Code/mobile-dev/Mobile-Dev/Mobile-Dev/bin/Debug/nunit.framework.dll
+/Users/charleswang/Code/mobile-dev/Mobile-Dev/Mobile-Dev/bin/Debug/Mobile-Dev.dll.mdb
+/Users/charleswang/Code/mobile-dev/Mobile-Dev/Mobile-Dev/bin/Debug/Mobile-Dev.dll
+/Users/charleswang/Code/mobile-dev/Mobile-Dev/Mobile-Dev/obj/Debug/Mobile-Dev.dll
+/Users/charleswang/Code/mobile-dev/Mobile-Dev/Mobile-Dev/obj/Debug/Mobile-Dev.dll.mdb
+/Users/charleswang/Code/mobile-dev/Mobile-Dev/Mobile-Dev/bin/Debug/Xamarin.UITest.dll
+/Users/charleswang/Code/mobile-dev/csharp/mobile-Dev/Mobile-Dev/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/charleswang/Code/mobile-dev/csharp/mobile-Dev/Mobile-Dev/obj/Debug/Mobile-Dev.dll
+/Users/charleswang/Code/mobile-dev/csharp/mobile-Dev/Mobile-Dev/obj/Debug/Mobile-Dev.dll.mdb
+/Users/charleswang/Code/mobile-dev/csharp/mobile-Dev/Mobile-Dev/bin/Debug/nunit.framework.dll
+/Users/charleswang/Code/mobile-dev/csharp/mobile-Dev/Mobile-Dev/bin/Debug/Xamarin.UITest.dll
+/Users/charleswang/Code/mobile-dev/csharp/mobile-Dev/Mobile-Dev/bin/Debug/Mobile-Dev.dll.mdb
+/Users/charleswang/Code/mobile-dev/csharp/mobile-Dev/Mobile-Dev/bin/Debug/Mobile-Dev.dll

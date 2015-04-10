@@ -1,0 +1,47 @@
+reinstall_apps
+start_test_server_in_background
+query "*"
+touch "* text:'OK'"
+query "*"
+touch "* text:'Mobile Dev + Test Conference 2015'"
+wait_for_elements_exist ["* text:'Exhibitors'"]
+query "*"
+flash "* id:'sm_layout_banner'"
+touch "* id:'sm_layout_banner'"
+touch "* marked:'Exhibitors'"
+query "*"
+tap_mark "Exhibitors by Name"
+query "*"
+flash "* id:'cc_event_guide_list_bookmark'"
+scroll_down
+scroll_down
+scroll_down
+scroll_up
+scroll_up
+scroll_up
+scroll_up
+scroll_up
+scroll_down
+scroll_down
+scroll_down
+scroll_down
+query "*"
+query "*"
+tap_mark "Search"
+query "*"
+flash "* id:'search_bar'"
+enter_text "* id:'search_bar'", Xamarin
+enter_text "* id:'search_bar'", "Xamarin"
+press_enter_button
+query "*"
+query "*"
+query "*"
+query "* id:'sm_layout_banner'"
+reinstall_apps
+start_test_server_in_background
+wait_for_elements_exist ["* id:'message'"]
+query "*"
+flash "* marked:'cc_event_status_image'"
+query "* :id"
+query "*", :id
+quit
