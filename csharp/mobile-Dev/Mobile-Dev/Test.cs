@@ -17,6 +17,8 @@ namespace MobileDev.Android
         [SetUp]
         public void Setup()
         {
+            /* You'll need an ApiKey to run on emulators for more than 15 min 
+            or on any physical device */
             app = ConfigureApp
                 .Android
                 .ApkFile(Constants.ApkPath)
@@ -53,15 +55,18 @@ namespace MobileDev.Android
             }
             app.Screenshot("Scrolled thrice for the Xamarin name");
 
+            /* Marked is a nice shortcut and will look for matching 
+            text in the Id, Text, or Label attributes */
             app.Tap(x => x.Marked("Search"));
             /* Intellisence will show you different options! The EnterText method
-             * can select and then type or type into an already selected field. */
+             * can select then type or type into an already selected field. */
             app.EnterText(x => x.Id("search_bar"), "Xamarin");
             app.PressEnter();
             app.Screenshot("Searching for Xamarin with the search bar");
 
             app.Tap(x => x.Id("list_item_title").Text("Xamarin"));
             app.WaitForElement(x => x.Text("Xamarin"));
+            // Screenshots are only taken on the cloud and are paired with the text you insert here.
             app.Screenshot("Xamarin page");
         }
     }
