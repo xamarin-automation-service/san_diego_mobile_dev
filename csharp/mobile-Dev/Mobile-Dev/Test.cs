@@ -5,11 +5,15 @@ using Xamarin.UITest.Android;
 
 namespace MobileDev.Android
 {
+    // Tests are run through NUnit.
     [TestFixture()]
     public class SimpleTest
     {
         IApp app;
 
+        /* The SetUp attribute will mark the method to run before every 
+         * Test method. A TearDown method can also be added to run 
+         * after a Test method regardless of it passing or failing. */
         [SetUp]
         public void Setup()
         {
@@ -20,13 +24,18 @@ namespace MobileDev.Android
                 .StartApp();
         }
 
+        /* The Test attribute marks a method to be tested. A TestCase
+         * attribute can be added to run a Test method with varying parameters*/
         [Test()]
         public void FindingUs()
         {
             app.Screenshot("App is open");
+            /* The Intial method is a custom written extension method. 
+             * You can find the method in Extension.cs. Try your own!*/
             app.Initial();
 
             app.Tap(x => x.Text("Exhibitors"));
+            // WaitFor's are assertions. Use them to line up screenshots too!
             app.WaitForElement(x => x.Text("Exhibitors by Name"));
             app.Screenshot("Exhibitors search open");
 
@@ -45,6 +54,8 @@ namespace MobileDev.Android
             app.Screenshot("Scrolled thrice for the Xamarin name");
 
             app.Tap(x => x.Marked("Search"));
+            /* Intellisence will show you different options! The EnterText method
+             * can select and then type or type into an already selected field. */
             app.EnterText(x => x.Id("search_bar"), "Xamarin");
             app.PressEnter();
             app.Screenshot("Searching for Xamarin with the search bar");
