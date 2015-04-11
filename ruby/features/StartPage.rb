@@ -16,7 +16,6 @@ class StartPage < Calabash::ABase
   end
 
   def confe
-    # wait_for_elements_exist ["* text:'Mobile Dev + Test Conference 2015'"]
     touch "* text:'Mobile Dev + Test Conference 2015'"
   end
 
